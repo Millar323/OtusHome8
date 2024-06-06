@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OtusHome8.Interfaces;
 
-namespace OtusHome8
+namespace OtusHome8.Models
 {
     // Базовый класс Vehicle
     public abstract class Vehicle : IMyCloneable<Vehicle>, ICloneable

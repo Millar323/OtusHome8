@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OtusHome8
+namespace OtusHome8.Models
 {
     // Производный класс Truck
-    public class Truck : Vehicle
+    public class Truck : Car
     {
         public double LoadCapacity { get; set; }
 
         // Переопределение метода клонирования для Truck
-        public override Vehicle Clone()
+        public override Car Clone()
         {
             return (Truck)MemberwiseClone();
         }

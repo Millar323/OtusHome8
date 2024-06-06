@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OtusHome8
+namespace OtusHome8.Models
 {
-    internal class Car : Vehicle
+    public class Car : Vehicle
     {
         // Производный класс Car
         public int NumberOfDoors { get; set; }

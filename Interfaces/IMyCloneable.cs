@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OtusHome8
+namespace OtusHome8.Interfaces
 {
     public interface IMyCloneable<T> where T : class
     {
